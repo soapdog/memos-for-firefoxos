@@ -12,10 +12,40 @@ function showMemoDetail(inMemo) {
 function displayMemo() {
     document.getElementById("memo-title").value = currentMemo.title;
     document.getElementById("memo-content").value = currentMemo.content;
+    var elem1 = document.getElementById("memo-content");
+    var style = window.getComputedStyle(elem1, null);
+    console.log("style", style.height, style.width);
 
 }
 
+function textChanged(e) {
+    console.log("text change!",e);
+    currentMemo.title = document.getElementById("memo-title").value;
+    currentMemo.content = document.getElementById("memo-content").value;
+    saveMemo(currentMemo, function(err, succ) {
+        console.log("callback", err, succ);
+        if (!err) {
+            currentMemo.id = succ;
+        }
+    });
+}
+
+function newMemo() {
+    var newMemo = new Memo();
+    showMemoDetail(newMemo);
+}
+
+function deleteCurrentMemo() {
+    deleteMemo(currentMemo.id, function(err, succ) {
+        console.log("callback from delete", err, succ);
+        if (!err) {
+            showMemoList();
+        }
+    })
+}
+
 function showMemoList() {
+    currentMemo = null;
     refreshMemoList();
     listView.classList.remove("hidden");
     detailView.classList.add("hidden");
@@ -60,5 +90,10 @@ window.onload = function() {
     detailView = document.getElementById("memo-detail");
 
     document.getElementById("back-to-list").addEventListener("click", showMemoList);
+    document.getElementById("new-memo").addEventListener("click", newMemo);
+    document.getElementById("delete-memo").addEventListener("click", deleteCurrentMemo);
+    document.getElementById("memo-content").addEventListener("input", textChanged);
+    document.getElementById("memo-title").addEventListener("input", textChanged);
+
     refreshMemoList();
 }

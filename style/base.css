@@ -74,17 +74,17 @@ section[role="region"] > header:first-child .icon.icon-settings {
     float: right;
 }
 
-#memo-content-area {
-    padding: 10px;
-    border: 1px solid silver;
-}
-
-#memo-content-area #memo-content {
-    resize: none;
-    ooutline: none;
+#memo-content {
+    outline: none;
     width: 100%;
-    padding: 10px;
     border: none;
     height: 100%;
-    margin: -10px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+
+}
+
+.pink {
+    background-color: hotpink;
 }

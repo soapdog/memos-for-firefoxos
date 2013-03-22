@@ -6,9 +6,9 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/manifest.webapp" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363917573608" ignored="false" />
     <file path="/model.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363925237748" ignored="false" />
-    <file path="/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363930014141" ignored="false" />
-    <file path="/app.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363928912656" ignored="false" />
-    <file path="/base.css" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363929387651" ignored="false" />
+    <file path="/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363981225874" ignored="false" />
+    <file path="/app.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363981494667" ignored="false" />
+    <file path="/base.css" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363980438720" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="30" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.53125">
+            <state line="22" column="23" selection-start="869" selection-end="869" vertical-scroll-proportion="0.1307947">
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="71" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+            <state line="93" column="86" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +67,7 @@
       <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="5" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
+            <state line="76" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,16 +85,16 @@
       <list>
         <option value="$PROJECT_DIR$/manifest.webapp" />
         <option value="$PROJECT_DIR$/js/model.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/style/base.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1600" />
-    <option name="height" value="874" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -267,14 +267,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1600" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31442463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -364,7 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="5" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
+        <state line="76" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -378,14 +378,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="71" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+        <state line="93" column="86" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="30" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.53125">
+        <state line="22" column="23" selection-start="869" selection-end="869" vertical-scroll-proportion="0.1307947">
           <folding />
         </state>
       </provider>

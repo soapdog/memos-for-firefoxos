@@ -20,7 +20,7 @@
   <section role="region" id="memo-list">
     <header>
       <menu type="toolbar">
-          <a href="#"><span class="icon icon-add">add</span></a>
+          <a id = "new-memo" href="#"><span class="icon icon-add">add</span></a>
       </menu>
       <h1>Memo</h1>
     </header>
@@ -39,10 +39,8 @@
           </form>
       </header>
 
-      <p id="memo-content-area">
-          <textarea id="memo-content" placeholder="Placeholder in textarea" required=""></textarea>
-          <button type="reset">Clear</button>
-      </p>
+      <textarea id="memo-content" placeholder="Placeholder in textarea" required=""></textarea>
+
       <div role="toolbar">
           <ul>
               <li><button id="delete-memo" class="icon-delete">Delete</button></li>
