@@ -1,0 +1,12 @@
+{
+  "name": "Memo",
+  "description": "A simple memo app",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Andre Garzia",
+    "url": "http://andregarzia.com"
+  },
+  "icons": {
+    "128": "/style/icons/Blank.png"
+  }
+}

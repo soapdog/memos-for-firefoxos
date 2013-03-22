@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+section[role="region"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+}
+
+#settings-view {
+    z-index: 10;
+}
+
+.move-down {
+    transform: translateY(100%);
+    transition: all 0.2s;
+}
+
+.move-up {
+    transform: translateY(0);
+    transition: all 0.2s;
+}
+
+section[role="region"] > header:first-child .icon.icon-settings {
+    background-image: url(images/settings.png);
+}
+
+[data-type="list"] li > a aside img {
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem 1rem 0 0;
+}
+
+[data-type="list"] li > a aside.pack-end.install {
+    background: url(images/download.png) no-repeat;
+    height: 3rem;
+    width: 3rem;
+    margin: 1.5rem 0 0 1rem;
+}
+
+#settings-view form {
+    margin: 1.5rem;
+}
+
+.icon-done {
+    background-image: url('/style/icons/iconaction_done_30x30.png') !important;
+}
+
+.icon-delete {
+    background-image: url('/style/icons/iconaction_delete_30x30.png') !important;
+}
+.icon-share {
+    background-image: url('/style/icons/iconaction_share_30x30.png') !important;
+}
+
+.right {
+    float: right;
+}
+
+#memo-content-area {
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+#memo-content-area #memo-content {
+    resize: none;
+    ooutline: none;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    height: 100%;
+    margin: -10px;
+}

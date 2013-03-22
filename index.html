@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" type="text/css" href="/style/base.css" />
+    <link rel="stylesheet" type="text/css" href="/style/ui.css" />
+    <link rel="stylesheet" type="text/css" href="/style/building_blocks.css" />
+    <link rel="stylesheet" type="text/css" href="shared/style/headers.css" />
+    <link rel="stylesheet" type="text/css" href="shared/style_unstable/lists.css" />
+    <link rel="stylesheet" type="text/css" href="shared/style_unstable/toolbars.css" />
+    <link rel="stylesheet" type="text/css" href="shared/style/input_areas.css" />
+    <script src="/js/model.js"></script>
+    <title>Memo</title>
+  </head>
+
+  <body role="application">
+
+  <section role="region" id="memo-list">
+    <header>
+      <menu type="toolbar">
+          <a href="#"><span class="icon icon-add">add</span></a>
+      </menu>
+      <h1>Memo</h1>
+    </header>
+    <article id="memoList" data-type="list"></article>
+  </section>
+
+  <section role="region" id="memo-detail" class="skin-dark hidden">
+      <header>
+          <button id="back-to-list"><span class="icon icon-back">back</span></button>
+          <menu type="toolbar">
+              <a href="#"><span class="icon icon-share">edit</span></a>
+          </menu>
+          <form action="#">
+              <input id="memo-title" placeholder="Memo Title" required="required" type="text">
+              <button type="reset">Remove text</button>
+          </form>
+      </header>
+
+      <p id="memo-content-area">
+          <textarea id="memo-content" placeholder="Placeholder in textarea" required=""></textarea>
+          <button type="reset">Clear</button>
+      </p>
+      <div role="toolbar">
+          <ul>
+              <li><button id="delete-memo" class="icon-delete">Delete</button></li>
+          </ul>
+      </div>
+  </section>
+
+  <script src="/js/app.js"></script>
+
+  </body>
+
+</html>
