@@ -32,7 +32,7 @@
       <header>
           <button id="back-to-list"><span class="icon icon-back">back</span></button>
           <menu type="toolbar">
-              <a id="share-memo" href="#"><span class="icon icon-email">edit</span></a>
+              <a id="share-memo" href="#"><span class="icon icon-share">edit</span></a>
           </menu>
           <form action="#">
               <input id="memo-title" placeholder="Memo Title" required="required" type="text">
@@ -40,7 +40,9 @@
           </form>
       </header>
 
-      <textarea id="memo-content" placeholder="Placeholder in textarea" required=""></textarea>
+      <p id="memo-area">
+          <textarea placeholder="Memo content" id="memo-content"></textarea>
+      </p>
 
       <div role="toolbar">
           <ul>

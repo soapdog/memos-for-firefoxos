@@ -27,18 +27,14 @@ function shareMemo() {
 function displayMemo() {
     document.getElementById("memo-title").value = currentMemo.title;
     document.getElementById("memo-content").value = currentMemo.content;
-    var elem1 = document.getElementById("memo-content");
-    var style = window.getComputedStyle(elem1, null);
-    console.log("style", style.height, style.width);
-
 }
 
 function textChanged(e) {
-    console.log("text change!",e);
+    console.log("text input event!",e);
     currentMemo.title = document.getElementById("memo-title").value;
     currentMemo.content = document.getElementById("memo-content").value;
     saveMemo(currentMemo, function(err, succ) {
-        console.log("callback", err, succ);
+        console.log("save memo callback ", err, succ);
         if (!err) {
             currentMemo.id = succ;
         }

@@ -24,23 +24,6 @@ section[role="region"] {
     background: #fff;
 }
 
-#settings-view {
-    z-index: 10;
-}
-
-.move-down {
-    transform: translateY(100%);
-    transition: all 0.2s;
-}
-
-.move-up {
-    transform: translateY(0);
-    transition: all 0.2s;
-}
-
-section[role="region"] > header:first-child .icon.icon-settings {
-    background-image: url(images/settings.png);
-}
 
 [data-type="list"] li > a aside img {
     height: 4rem;
@@ -48,16 +31,6 @@ section[role="region"] > header:first-child .icon.icon-settings {
     margin: 1rem 1rem 0 0;
 }
 
-[data-type="list"] li > a aside.pack-end.install {
-    background: url(images/download.png) no-repeat;
-    height: 3rem;
-    width: 3rem;
-    margin: 1.5rem 0 0 1rem;
-}
-
-#settings-view form {
-    margin: 1.5rem;
-}
 
 .icon-done {
     background-image: url('/style/icons/iconaction_done_30x30.png') !important;
@@ -74,16 +47,25 @@ section[role="region"] > header:first-child .icon.icon-settings {
     float: right;
 }
 
-#memo-content {
-    outline: none;
-    width: 100%;
-    border: none;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    display: block;
-
+#memo-area {
+    margin: 0;
 }
+
+#memo-content {
+    -moz-box-sizing: border-box;
+    width: calc(100% - 4rem);
+    min-height: 10rem;
+    margin: 1.5rem 1.5rem;
+    display: block;
+    overflow: hidden;
+    padding: 0rem;
+    font: 1.4rem/2rem "MozTT", Sans-serif;
+    font-weight: normal;
+    border: none;
+    box-shadow: none;
+    background: #fff;
+}
+
 
 .pink {
     background-color: hotpink;
