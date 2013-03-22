@@ -6,8 +6,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/manifest.webapp" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363917573608" ignored="false" />
     <file path="/model.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363925237748" ignored="false" />
-    <file path="/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363981225874" ignored="false" />
-    <file path="/app.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363981494667" ignored="false" />
+    <file path="/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363983693396" ignored="false" />
+    <file path="/app.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363983569025" ignored="false" />
     <file path="/base.css" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363980438720" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="23" selection-start="869" selection-end="869" vertical-scroll-proportion="0.1307947">
+            <state line="34" column="70" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.30463576">
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="86" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0">
+            <state line="17" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,8 +86,8 @@
         <option value="$PROJECT_DIR$/manifest.webapp" />
         <option value="$PROJECT_DIR$/js/model.js" />
         <option value="$PROJECT_DIR$/style/base.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -378,14 +378,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="86" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0">
+        <state line="17" column="25" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="869" selection-end="869" vertical-scroll-proportion="0.1307947">
+        <state line="34" column="70" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.30463576">
           <folding />
         </state>
       </provider>

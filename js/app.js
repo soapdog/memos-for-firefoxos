@@ -1,12 +1,27 @@
 console.log("Loading app.js");
 
-var listView, detailView, currentMemo;
+var listView, detailView, currentMemo, deleteMemoDialog;
 
 function showMemoDetail(inMemo) {
     currentMemo = inMemo;
     displayMemo();
     listView.classList.add("hidden");
     detailView.classList.remove("hidden");
+}
+
+function shareMemo() {
+    var shareActivity = new MozActivity({
+        name: "new",
+        data: {
+            type: "mail",
+            body: currentMemo.content,
+            url: "mailto:?body=" + encodeURIComponent(currentMemo.content) + "&subject=" + encodeURIComponent(currentMemo.title)
+
+        }
+    });
+    shareActivity.onerror = function(e) {
+        console.log("can't share memo", e);
+    };
 }
 
 function displayMemo() {
@@ -35,7 +50,16 @@ function newMemo() {
     showMemoDetail(newMemo);
 }
 
+function requestDeleteConfirmation() {
+    deleteMemoDialog.classList.remove("hidden");
+}
+
+function closeDeleteMemoDialog() {
+    deleteMemoDialog.classList.add("hidden");
+}
+
 function deleteCurrentMemo() {
+    closeDeleteMemoDialog();
     deleteMemo(currentMemo.id, function(err, succ) {
         console.log("callback from delete", err, succ);
         if (!err) {
@@ -86,14 +110,21 @@ function refreshMemoList() {
 
 
 window.onload = function() {
+    // elements that we're going to reuse in the code
     listView = document.getElementById("memo-list");
     detailView = document.getElementById("memo-detail");
+    deleteMemoDialog = document.getElementById("delete-memo-dialog");
 
+    // All the listeners for the interface buttons and for the input changes
     document.getElementById("back-to-list").addEventListener("click", showMemoList);
     document.getElementById("new-memo").addEventListener("click", newMemo);
-    document.getElementById("delete-memo").addEventListener("click", deleteCurrentMemo);
+    document.getElementById("share-memo").addEventListener("click", shareMemo);
+    document.getElementById("delete-memo").addEventListener("click", requestDeleteConfirmation);
+    document.getElementById("confirm-delete-action").addEventListener("click", deleteCurrentMemo);
+    document.getElementById("cancel-delete-action").addEventListener("click", closeDeleteMemoDialog);
     document.getElementById("memo-content").addEventListener("input", textChanged);
     document.getElementById("memo-title").addEventListener("input", textChanged);
 
+    // first thing that happens when the app launches is the following code
     refreshMemoList();
 }
