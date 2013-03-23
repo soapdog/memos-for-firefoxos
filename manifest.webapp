@@ -2,6 +2,7 @@
   "name": "Memo",
   "description": "A simple memo app",
   "launch_path": "/index.html",
+  "type": "privileged",
   "developer": {
     "name": "Andre Garzia",
     "url": "http://andregarzia.com"

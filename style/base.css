@@ -66,6 +66,11 @@ section[role="region"] {
     background: #fff;
 }
 
+#memoList {
+    height: 100%;
+    overflow: auto !important;
+}
+
 
 .pink {
     background-color: hotpink;

@@ -4,11 +4,11 @@
     <list default="true" id="29b2fa09-87b9-4c0f-9e28-363c68271a8e" name="Default" comment="" />
     <ignored path="memo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/manifest.webapp" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363917573608" ignored="false" />
+    <file path="/manifest.webapp" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363991766500" ignored="false" />
     <file path="/model.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363925237748" ignored="false" />
     <file path="/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363990971029" ignored="false" />
     <file path="/app.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363990940830" ignored="false" />
-    <file path="/base.css" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363991012529" ignored="false" />
+    <file path="/base.css" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363996923082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="21" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.9522293">
+            <state line="69" column="17" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.7133758">
               <folding />
             </state>
           </provider>
@@ -58,7 +58,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="65" selection-start="1735" selection-end="1735" vertical-scroll-proportion="-11.416667">
+            <state line="43" column="65" selection-start="1735" selection-end="1735" vertical-scroll-proportion="-16.416666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.webapp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.webapp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="23" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,10 +83,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/manifest.webapp" />
         <option value="$PROJECT_DIR$/js/model.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/manifest.webapp" />
         <option value="$PROJECT_DIR$/style/base.css" />
       </list>
     </option>
@@ -236,7 +245,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="preferences.sourceCode.General" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gaia/apps/email" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gaia/apps/settings" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -342,13 +351,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manifest.webapp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gaia/apps/gallery/style/images/iconaction_delete_30x30.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -357,6 +359,13 @@
     <entry file="file://$PROJECT_DIR$/js/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="0" selection-start="3221" selection-end="3221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.webapp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -370,14 +379,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="65" selection-start="1735" selection-end="1735" vertical-scroll-proportion="-11.416667">
+        <state line="43" column="65" selection-start="1735" selection-end="1735" vertical-scroll-proportion="-16.416666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="21" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.9522293">
+        <state line="69" column="17" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.7133758">
           <folding />
         </state>
       </provider>
