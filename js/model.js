@@ -37,6 +37,7 @@ request.onupgradeneeded = function(event) {
         objectStore.add(sampleMemo1);
         objectStore.add(sampleMemo2);
 
+
     }
 }
 

@@ -73,6 +73,11 @@ function showMemoList() {
 
 
 function refreshMemoList() {
+    if (!db) {
+        console.warn("Database is not ready yet");
+        setTimeout(refreshMemoList, 1000);
+        return;
+    }
     console.log("Refreshing memo list");
 
     var memoListContainer = document.getElementById("memoList");
@@ -123,4 +128,5 @@ window.onload = function() {
 
     // first thing that happens when the app launches is the following code
     refreshMemoList();
+
 }
