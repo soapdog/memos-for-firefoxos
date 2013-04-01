@@ -19,7 +19,7 @@ function shareMemo() {
 
         }
     });
-    shareActivity.onerror = function(e) {
+    shareActivity.onerror = function (e) {
         console.log("can't share memo", e);
     };
 }
@@ -30,10 +30,9 @@ function displayMemo() {
 }
 
 function textChanged(e) {
-    console.log("text input event!",e);
     currentMemo.title = document.getElementById("memo-title").value;
     currentMemo.content = document.getElementById("memo-content").value;
-    saveMemo(currentMemo, function(err, succ) {
+    saveMemo(currentMemo, function (err, succ) {
         console.log("save memo callback ", err, succ);
         if (!err) {
             currentMemo.id = succ;
@@ -56,7 +55,7 @@ function closeDeleteMemoDialog() {
 
 function deleteCurrentMemo() {
     closeDeleteMemoDialog();
-    deleteMemo(currentMemo.id, function(err, succ) {
+    deleteMemo(currentMemo.id, function (err, succ) {
         console.log("callback from delete", err, succ);
         if (!err) {
             showMemoList();
@@ -74,6 +73,11 @@ function showMemoList() {
 
 function refreshMemoList() {
     if (!db) {
+        // HACK:
+        // this condition may happen upon first time use when the
+        // indexDB storage is under creation and refreshMemoList()
+        // is called. Simply waiting for a bit longer before trying again
+        // will make it work.
         console.warn("Database is not ready yet");
         setTimeout(refreshMemoList, 1000);
         return;
@@ -90,12 +94,12 @@ function refreshMemoList() {
     var memoList = document.createElement("ul");
     memoListContainer.appendChild(memoList);
 
-    listAllMemoTitles(function(err, value) {
+    listAllMemoTitles(function (err, value) {
         var memoItem = document.createElement("li");
         var memoP = document.createElement("p");
         var memoTitle = document.createTextNode(value.title);
 
-        memoItem.addEventListener("click", function(e) {
+        memoItem.addEventListener("click", function (e) {
             console.log("clicked memo #" + value.id);
             showMemoDetail(value);
 
@@ -110,7 +114,7 @@ function refreshMemoList() {
 }
 
 
-window.onload = function() {
+window.onload = function () {
     // elements that we're going to reuse in the code
     listView = document.getElementById("memo-list");
     detailView = document.getElementById("memo-detail");

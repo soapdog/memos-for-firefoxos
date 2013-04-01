@@ -3,6 +3,11 @@
   "description": "A simple memo app",
   "launch_path": "/index.html",
   "type": "privileged",
+  "permissions": {
+    "storage": {
+      "description": "Required for storing and retrieving notes."
+      }
+  },
   "developer": {
     "name": "Andre Garzia",
     "url": "http://andregarzia.com"
