@@ -1,6 +1,6 @@
 {
-  "name": "Memo",
-  "description": "A simple memo app",
+  "name": "Memos",
+  "description": "A simple memo taking app",
   "launch_path": "/index.html",
   "type": "privileged",
   "permissions": {
@@ -13,6 +13,7 @@
     "url": "http://andregarzia.com"
   },
   "icons": {
-    "128": "/style/icons/Blank.png"
+    "60": "/style/icons/icon_60.png",
+    "128": "/style/icons/icon_128.png"
   }
 }

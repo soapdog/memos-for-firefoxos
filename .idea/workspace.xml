@@ -4,15 +4,21 @@
     <list default="true" id="29b2fa09-87b9-4c0f-9e28-363c68271a8e" name="Default" comment="" />
     <ignored path="memo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/manifest.webapp" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1364856688836" ignored="false" />
+    <file path="/manifest.webapp" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365394217222" ignored="false" />
     <file path="/model.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363997954788" ignored="false" />
-    <file path="/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363997262669" ignored="false" />
-    <file path="/app.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363998142464" ignored="false" />
+    <file path="/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365393289376" ignored="false" />
+    <file path="/app.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365051099738" ignored="false" />
     <file path="/base.css" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1363996923082" ignored="false" />
-    <file path="/Dummy.txt" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1364212532639" ignored="false" />
+    <file path="/Dummy.txt" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365191621350" ignored="false" />
     <file path="$USER_HOME$/Desktop/riojs-apresentacao/firefoxos-riojs.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1364212552401" ignored="false" />
     <file path="/firefoxos-riojs.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1364212552401" ignored="false" />
     <file path="/sample_memo.json" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1364856003530" ignored="false" />
+    <file path="$PROJECT_DIR$/../piefox/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365048633824" ignored="false" />
+    <file path="$PROJECT_DIR$/../piefox/js/app.js" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365051188398" ignored="false" />
+    <file path="$PROJECT_DIR$/../piefox/manifest.webapp" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365051168936" ignored="false" />
+    <file path="$USER_HOME$/Desktop/mobileconf-exemplos/instalacao/index.html" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365124022527" ignored="false" />
+    <file path="$USER_HOME$/Desktop/mobileconf-apresentacao/README.md" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365124326564" ignored="false" />
+    <file path="/README.md" changelist="29b2fa09-87b9-4c0f-9e28-363c68271a8e" time="1365124325601" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +41,8 @@
       <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="0" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="45" column="117" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,7 +50,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="16" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0">
+            <state line="60" column="20" selection-start="1726" selection-end="1727" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,19 +65,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="2345" selection-end="2345" vertical-scroll-proportion="1.6445183">
+            <state line="25" column="17" selection-start="1033" selection-end="1033" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.webapp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="manifest.webapp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manifest.webapp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="2" column="38" selection-start="59" selection-end="59" vertical-scroll-proportion="0.047923323">
               <folding />
             </state>
           </provider>
@@ -90,12 +94,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/style/base.css" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/sample_memo.json" />
         <option value="$PROJECT_DIR$/sample_memos.json" />
-        <option value="$PROJECT_DIR$/manifest.webapp" />
-        <option value="$PROJECT_DIR$/js/model.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/model.js" />
+        <option value="$PROJECT_DIR$/manifest.webapp" />
       </list>
     </option>
   </component>
@@ -130,7 +134,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,6 +176,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="memo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="memo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="building_blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="memo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="memo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -193,13 +232,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="preferences.sourceCode.General" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/riojs-apresentacao" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mobileconf-exemplos/instalacao" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -253,10 +293,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19529983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2082658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -265,6 +304,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -333,10 +373,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/model.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="78" selection-start="3307" selection-end="3307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="20" selection-start="1726" selection-end="1727" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="17" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="65" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.webapp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="127" column="1" selection-start="3352" selection-end="3352" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -380,39 +453,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="17" selection-start="1033" selection-end="1033" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="16" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample_memos.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="53" selection-end="205" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.webapp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+        <state line="60" column="20" selection-start="1726" selection-end="1727" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="0" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="45" column="117" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/manifest.webapp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2345" selection-end="2345" vertical-scroll-proportion="1.6445183">
+        <state line="2" column="38" selection-start="59" selection-end="59" vertical-scroll-proportion="0.047923323">
           <folding />
         </state>
       </provider>

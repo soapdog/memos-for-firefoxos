@@ -1,7 +1,14 @@
-console.log("Loading app.js");
+/**
+ * This is a simple Memo app for Firefox OS
+ */
 
 var listView, detailView, currentMemo, deleteMemoDialog;
 
+/**
+ * Switches from the list view displaying the memo titles to the detail view that
+ * allows the user to edit/view a chosen memo.
+ * @param inMemo
+ */
 function showMemoDetail(inMemo) {
     currentMemo = inMemo;
     displayMemo();
@@ -9,6 +16,9 @@ function showMemoDetail(inMemo) {
     detailView.classList.remove("hidden");
 }
 
+/**
+ * This function is used to share the current memo using email.
+ */
 function shareMemo() {
     var shareActivity = new MozActivity({
         name: "new",
@@ -24,11 +34,19 @@ function shareMemo() {
     };
 }
 
+/**
+ * This function is used to pick the current memo data and insert it into the DOM elements.
+ */
 function displayMemo() {
     document.getElementById("memo-title").value = currentMemo.title;
     document.getElementById("memo-content").value = currentMemo.content;
 }
 
+/**
+ * This function is called by the text change event. It picks the data from the DOM elements holding the
+ * memo data and save it to the indexedDB database.
+ * @param e
+ */
 function textChanged(e) {
     currentMemo.title = document.getElementById("memo-title").value;
     currentMemo.content = document.getElementById("memo-content").value;
@@ -130,7 +148,7 @@ window.onload = function () {
     document.getElementById("memo-content").addEventListener("input", textChanged);
     document.getElementById("memo-title").addEventListener("input", textChanged);
 
-    // first thing that happens when the app launches is the following code
+    // the entry point for the app is the following command
     refreshMemoList();
 
 }
