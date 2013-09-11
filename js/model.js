@@ -8,8 +8,8 @@
  * handling routines.
  */
 
-const dbName = "memos";
-const dbVersion = 1;
+var dbName = "memos";
+var dbVersion = 1;
 
 var db;
 var request = indexedDB.open(dbName, dbVersion);
@@ -47,7 +47,7 @@ request.onupgradeneeded = function (event) {
 
         objectStore.add(sampleMemo1);
     }
-}
+};
 
 /**
  * This memo function is used to create new memos.
@@ -112,7 +112,7 @@ function saveMemo(inMemo, inCallback) {
         console.log("Memo saved with id: " + request.result);
         inCallback(null, request.result);
 
-    }
+    };
 }
 
 /**

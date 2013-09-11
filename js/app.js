@@ -59,8 +59,8 @@ function textChanged(e) {
 }
 
 function newMemo() {
-    var newMemo = new Memo();
-    showMemoDetail(newMemo);
+    var myNewMemo = new Memo();
+    showMemoDetail(myNewMemo);
 }
 
 function requestDeleteConfirmation() {
@@ -78,7 +78,7 @@ function deleteCurrentMemo() {
         if (!err) {
             showMemoList();
         }
-    })
+    });
 }
 
 function showMemoList() {
@@ -151,4 +151,4 @@ window.onload = function () {
     // the entry point for the app is the following command
     refreshMemoList();
 
-}
+};
