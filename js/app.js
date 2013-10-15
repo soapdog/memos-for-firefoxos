@@ -50,12 +50,7 @@ function displayMemo() {
 function textChanged(e) {
     currentMemo.title = document.getElementById("memo-title").value;
     currentMemo.content = document.getElementById("memo-content").value;
-    saveMemo(currentMemo, function (err, succ) {
-        console.log("save memo callback ", err, succ);
-        if (!err) {
-            currentMemo.id = succ;
-        }
-    });
+    saveMemo(currentMemo);
 }
 
 function newMemo() {
@@ -73,12 +68,8 @@ function closeDeleteMemoDialog() {
 
 function deleteCurrentMemo() {
     closeDeleteMemoDialog();
-    deleteMemo(currentMemo.id, function (err, succ) {
-        console.log("callback from delete", err, succ);
-        if (!err) {
-            showMemoList();
-        }
-    });
+    deleteMemo(currentMemo.created);
+    showMemoList();
 }
 
 function showMemoList() {
@@ -90,17 +81,6 @@ function showMemoList() {
 
 
 function refreshMemoList() {
-    if (!db) {
-        // HACK:
-        // this condition may happen upon first time use when the
-        // indexDB storage is under creation and refreshMemoList()
-        // is called. Simply waiting for a bit longer before trying again
-        // will make it work.
-        console.warn("Database is not ready yet");
-        setTimeout(refreshMemoList, 1000);
-        return;
-    }
-    console.log("Refreshing memo list");
 
     var memoListContainer = document.getElementById("memoList");
 
@@ -112,15 +92,13 @@ function refreshMemoList() {
     var memoList = document.createElement("ul");
     memoListContainer.appendChild(memoList);
 
-    listAllMemoTitles(function (err, value) {
+    listAllMemoTitles(function (value) {
         var memoItem = document.createElement("li");
         var memoP = document.createElement("p");
         var memoTitle = document.createTextNode(value.title);
 
         memoItem.addEventListener("click", function (e) {
-            console.log("clicked memo #" + value.id);
             showMemoDetail(value);
-
         });
 
         memoP.appendChild(memoTitle);
